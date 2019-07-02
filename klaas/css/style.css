@@ -1,0 +1,163 @@
+
+*{box-sizing:border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+#achtergrondboven{
+  background-color: black;
+}
+
+@media only screen and (min-width: 1150px) {
+
+
+ul {list-style-type: none;
+
+    overflow: hidden;
+    background-color: black;
+}
+
+#title {
+  float: left;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-size: 21px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+}
+
+
+@media only screen and (max-width: 1139px) {
+
+ul {
+
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#title {
+  text-align: center;
+
+}
+
+li {
+  text-align: center;
+}
+
+li a {
+  text-align: center;
+    font-size: 21px;
+    display: block;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+}
+
+@media only screen and (max-width: 400px) {
+
+
+li a {
+  text-align: center;
+    font-size: 14px;
+}
+
+}
+
+.texthome {
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+  text-align: center;
+}
+
+.textproducts {
+  margin-left: 100px;
+  margin-right: 100px;
+  color: black;
+  text-align: center;
+}
+
+.bakla {
+
+   text-align: center;
+}
+
+.caravan {
+  margin: 25px;
+  border-bottom: 1px solid white;
+}
+
+.amg img {
+  width: 10%;
+  margin: auto;
+  display: block;
+}
+
+#welkom {
+  color: white;
+}
+
+.produkten {
+  margin-left: 120px;
+  margin-top: 4vw;
+}
+
+.produkten img {
+  width: 30%;
+  height: 50%;
+}
+
+.tekstcontact{
+text-align: center;
+}
+
+#achtergrondmidden {
+background-color: beige;
+box-sizing: border-box;
+}
+
+.kontakt {
+
+text-align: center;
+}
+
+.ass {
+  margin-left: -10vw;
+  text-align: center;
+}
+
+.amg2 {
+margin-bottom: 20px;
+}
+
+.amg2 img{
+  width: 2%;
+  margin: auto;
+  display: block;
+}
